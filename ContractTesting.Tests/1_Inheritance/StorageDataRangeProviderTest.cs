@@ -1,7 +1,7 @@
 ﻿using ContractTesting.Core;
 using ContractTesting.Core.Interfaces;
 
-namespace ContractTesting.Tests
+namespace ContractTesting.Tests._1_Inheritance
 {
     public class StorageDataRangeProviderTest : RangeProviderContractTestBase
     {

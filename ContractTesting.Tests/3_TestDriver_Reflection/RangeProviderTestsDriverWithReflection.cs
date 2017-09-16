@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using ContractTesting.Core.Interfaces;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace ContractTesting.Tests
+namespace ContractTesting.Tests._3_TestDriver_Reflection
 {
     [TestFixture]
     public class RangeProviderTestsDriverWithReflection
@@ -14,8 +13,6 @@ namespace ContractTesting.Tests
         public void AllImplementations_ValidRangeShouldBeBetween10And25()
         {
             var interfaceType = typeof(IDataRangeProvider);
-
-            IList<IDataRangeProvider> providersToTest = new List<IDataRangeProvider>();
 
             var types = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(a => a.GetTypes())

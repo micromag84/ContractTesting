@@ -2,7 +2,7 @@
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace ContractTesting.Tests
+namespace ContractTesting.Tests._1_Inheritance
 {
     [TestFixture]
     public abstract class RangeProviderContractTestBase

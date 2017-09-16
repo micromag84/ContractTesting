@@ -4,7 +4,7 @@ using ContractTesting.Core.Interfaces;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace ContractTesting.Tests
+namespace ContractTesting.Tests._2_TestDriver
 {
     [TestFixture]
     public class RangeProviderTestsDriver

@@ -52,12 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileDataRangeProviderTest.cs" />
+    <Compile Include="1_Inheritance\FileDataRangeProviderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RangeProviderContractTestBase.cs" />
-    <Compile Include="RangeProviderTestsDriver.cs" />
-    <Compile Include="RangeProviderTestsDriverWithReflection.cs" />
-    <Compile Include="StorageDataRangeProviderTest.cs" />
+    <Compile Include="1_Inheritance\RangeProviderContractTestBase.cs" />
+    <Compile Include="2_TestDriver\RangeProviderTestsDriver.cs" />
+    <Compile Include="3_TestDriver_Reflection\RangeProviderTestsDriverWithReflection.cs" />
+    <Compile Include="1_Inheritance\StorageDataRangeProviderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -68,5 +68,6 @@
       <Name>ContractTesting.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
