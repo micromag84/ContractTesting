@@ -52,10 +52,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileDataRangeProviderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RangeProviderContractTestBase.cs" />
+    <Compile Include="StorageDataRangeProviderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContractTesting.Core\ContractTesting.Core.csproj">
+      <Project>{B65F1CE9-6DAD-48D8-878A-AABC88F42B6B}</Project>
+      <Name>ContractTesting.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
