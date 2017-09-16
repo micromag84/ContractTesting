@@ -55,6 +55,8 @@
     <Compile Include="FileDataRangeProviderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RangeProviderContractTestBase.cs" />
+    <Compile Include="RangeProviderTestsDriver.cs" />
+    <Compile Include="RangeProviderTestsDriverWithReflection.cs" />
     <Compile Include="StorageDataRangeProviderTest.cs" />
   </ItemGroup>
   <ItemGroup>
