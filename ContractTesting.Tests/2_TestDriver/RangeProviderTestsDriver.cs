@@ -17,7 +17,7 @@ namespace ContractTesting.Tests._2_TestDriver
             providersToTest.Add(new StorageDataRangeProvider());
 
             foreach (var provider in providersToTest)
-                provider.GetValidRange().Should().BeInRange(10, 25);
+                provider.GetValidRange().Should().BeInRange(10, 25, $"of type '{provider.GetType().Name}'");
         }
     }
 }

@@ -21,7 +21,7 @@ namespace ContractTesting.Tests._3_TestDriver_Reflection
             foreach (var type in types)
             {
                 var provider = (IDataRangeProvider) Activator.CreateInstance(type);
-                provider.GetValidRange().Should().BeInRange(10, 25);
+                provider.GetValidRange().Should().BeInRange(10, 25, $"of type '{type.Name}'");
             }
         }
     }
