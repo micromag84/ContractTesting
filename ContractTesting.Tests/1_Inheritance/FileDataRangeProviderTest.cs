@@ -1,4 +1,5 @@
-﻿using ContractTesting.Core.Interfaces;
+﻿using ContractTesting.Core;
+using ContractTesting.Core.Interfaces;
 
 namespace ContractTesting.Tests._1_Inheritance
 {

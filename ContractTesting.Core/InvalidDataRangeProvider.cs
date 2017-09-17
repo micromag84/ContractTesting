@@ -2,11 +2,11 @@
 
 namespace ContractTesting.Core
 {
-    public class FileDataRangeProvider : IDataRangeProvider
+    public class InvalidDataRangeProvider : IDataRangeProvider
     {
         public int GetValidRange()
         {
-            return 10;
+            return -10;
         }
     }
 }
